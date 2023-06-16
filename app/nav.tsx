@@ -9,7 +9,7 @@ export default function Nav() {
       <nav className="m-auto grid max-w-lg grid-cols-2 items-center px-4 transition-all ">
         <div className="justify-start">
           <Link href="/">
-            <h1 className="my-6 text-[1.5rem] font-bold tracking-tight text-gray-900">Binify</h1>
+            <h1 className="my-6 text-[1.5rem] font-bold tracking-tight text-gray-900">NextJS 13 Template</h1>
           </Link>
         </div>
         <div className="grid justify-end">Welcome</div>

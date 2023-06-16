@@ -9,8 +9,8 @@ import Footer from "./footer"
 
 export const metadata: Metadata = {
   themeColor: "white",
-  title: "Binify - Secure way to share delicate informations",
-  description: "Self destroying and crypted text message to share",
+  title: "NextJS Template",
+  description: "",
   icons: {
     icon: "/favicon.ico",
   },
@@ -20,9 +20,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html className={quicksand.className} lang="en">
       <body className="grid h-screen grid-rows-[auto_1fr_auto] bg-[#E6E4DA] dark:bg-white">
-        <Nav />
-        {children}
-        <Footer />
+        <h1>NextJS 13 Template</h1>
       </body>
     </html>
   )

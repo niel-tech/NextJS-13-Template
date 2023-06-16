@@ -4,8 +4,8 @@ import Section from "./section"
 
 export const metadata: Metadata = {
   themeColor: "white",
-  title: "Binify - Read the secret",
-  description: "Self destroying and crypted text message to share",
+  title: "NextJS Template",
+  description: "",
   icons: {
     icon: "/favicon.ico",
   },

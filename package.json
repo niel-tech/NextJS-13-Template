@@ -1,6 +1,6 @@
 {
-  "name": "binify",
-  "description": "creates secure bin's on the fly",
+  "name": "Template",
+  "description": "",
   "version": "0.1.0",
   "private": true,
   "scripts": {

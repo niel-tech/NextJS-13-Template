@@ -1,8 +1,9 @@
 import { NextResponse } from "next/server"
 
-export async function GET(request: Request) {
+export async function GET(request: Request, { params }: { params: { id: string } }) {
   const { searchParams } = new URL(request.url)
-  const id = searchParams.get("id") as string
+  const searchParam = searchParams.get("anything") || undefined
+  const id = params.id
 
   try {
     return NextResponse.json("template")
